@@ -1,4 +1,4 @@
-package dev.jx.codemonium;
+package dev.jx.ec03;
 
 import org.junit.Test;
 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Widget.EC03.LoginTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/login_text_input_layout_hint_color</item>
+        <item name="boxBackgroundColor">@color/app_dark_blue_green</item>
+        <item name="boxStrokeColor">@color/app_yellow</item>
+        <item name="endIconTint">@color/app_white</item>
+        <item name="hintTextColor">@color/login_text_input_layout_hint_color</item>
+        <item name="startIconTint">@color/app_white</item>
+    </style>
+
+    <style name="LoginTextInputEditText">
+        <item name="android:textColor">@color/login_text_input_edit_text_text_color</item>
+        <item name="android:textCursorDrawable">@drawable/login_text_cursor</item>
+    </style>
+
+    <style name="Widget.EC03.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/app_white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="rippleColor">@color/text_button_ripple_color</item>
+    </style>
+
+    <style name="ContainedButton">
+        <item name="android:textColor">@color/app_black</item>
+        <item name="backgroundTint">@color/app_yellow</item>
+        <item name="elevation">0dp</item>
+    </style>
+</resources>

@@ -6,7 +6,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "dev.jx.codemonium"
+        applicationId "dev.jx.ec03"
         minSdk 23
         targetSdk 31
         versionCode 1
