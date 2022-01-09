@@ -2,17 +2,17 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <style name="Widget.EC03.LoginTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-        <item name="android:textColorHint">@color/login_text_input_layout_hint_color</item>
+        <item name="android:textColorHint">@color/app_white</item>
         <item name="boxBackgroundColor">@color/app_dark_blue_green</item>
-        <item name="boxStrokeColor">@color/app_yellow</item>
+        <item name="boxStrokeColor">@color/login_text_input_layout_box_stroke_color</item>
         <item name="endIconTint">@color/app_white</item>
-        <item name="hintTextColor">@color/login_text_input_layout_hint_color</item>
+        <item name="hintTextColor">@color/app_yellow</item>
         <item name="startIconTint">@color/app_white</item>
     </style>
 
     <style name="LoginTextInputEditText">
         <item name="android:textColor">@color/login_text_input_edit_text_text_color</item>
-        <item name="android:textCursorDrawable">@drawable/login_text_cursor</item>
+        <item name="android:textCursorDrawable">@drawable/login_text_input_edit_text_text_cursor</item>
     </style>
 
     <style name="Widget.EC03.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">

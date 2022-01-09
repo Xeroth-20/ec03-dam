@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Web Design ideas in 2021",
+    "imageUrl": "https://startup.info/wp-content/uploads/2021/03/Interactive-Web-Design-Ideas.png",
+    "readingMinutes": 15
+  },
+  {
+    "id": 2,
+    "name": "5 Basic concepts of programming",
+    "imageUrl": "https://i.ytimg.com/vi/quW5dAGpXiU/maxresdefault.jpg",
+    "readingMinutes": 20
+  }
+]

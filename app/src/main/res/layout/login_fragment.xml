@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@color/app_dark_blue"
     android:orientation="vertical"
-    android:padding="16dp"
+    android:padding="@dimen/app_padding"
     tools:context=".fragment.LoginFragment">
 
     <TextView
@@ -38,7 +38,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 style="@style/LoginTextInputEditText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="text" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout

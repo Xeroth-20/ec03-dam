@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Python from Beginner to Expert",
+    "imageUrl": "https://www.filepicker.io/api/file/BFMMlbcQvml9HSqXcvNp",
+    "hours": 4,
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "React for Beginners",
+    "imageUrl": "https://www.freecodecamp.org/news/content/images/size/w2000/2021/07/reactcourse.png",
+    "hours": 8,
+    "rating": 4.5
+  },
+  {
+    "id": 3,
+    "name": "Android App Development for Beginners",
+    "imageUrl": "https://nareshit.com/wp-content/uploads/2018/09/android-online-training-nareshit.jpg",
+    "hours": 12.5,
+    "rating": 4.2
+  }
+]
