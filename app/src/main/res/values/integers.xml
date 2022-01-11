@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="login_username_min_characters">3</integer>
+    <integer name="login_username_max_characters">12</integer>
+    <integer name="login_password_min_characters">6</integer>
+</resources>

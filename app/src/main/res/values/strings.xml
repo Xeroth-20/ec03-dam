@@ -5,19 +5,21 @@
     <!-- Login Fragment -->
     <string name="login_title">Login</string>
     <string name="login_username_label">Username</string>
+    <string name="login_username_error_text">Username must be between %1$d-%2$d characters long</string>
     <string name="login_password_label">Password</string>
+    <string name="login_password_error_text">Password must have at least %1$d characters</string>
     <string name="login_remember_me_label">Remember me</string>
     <string name="login_forgot_password_button_text">Forgot password</string>
     <string name="login_login_button_text">Login</string>
     <string name="login_create_account_button_text">Create account</string>
 
     <!-- Home Fragment -->
-    <string name="home_appbar_title">Hi, %1$s!</string>
-    <string name="home_appbar_title_default">Hi, User!</string>
+    <string name="home_appbar_title">Hi, %1$s! 👋</string>
+    <string name="home_appbar_title_default">Hi, User! 👋</string>
     <string name="home_appbar_subtitle">Let\'s start learning!</string>
     <string name="home_appbar_search_label">Search for anything</string>
-    <string name="home_first_section_name">Most Popular</string>
-    <string name="home_second_section_name">Your Categories</string>
+    <string name="home_first_section_name">Most Popular 🔥</string>
+    <string name="home_second_section_name">Your Categories ❤</string>
     <string name="home_view_all">View All</string>
 
     <!-- Course Item -->

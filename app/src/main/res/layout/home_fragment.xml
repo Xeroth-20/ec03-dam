@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/app_dark_blue"
+    android:clipToPadding="false"
+    android:paddingBottom="@dimen/bottom_nav_offset"
     tools:context=".fragment.HomeFragment">
 
     <LinearLayout
@@ -121,7 +123,7 @@
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
+                android:layout_marginBottom="8dp"
                 android:paddingHorizontal="@dimen/app_padding">
 
                 <dev.jx.ec03.view.TopicRecyclerView

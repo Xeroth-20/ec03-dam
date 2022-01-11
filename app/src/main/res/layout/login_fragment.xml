@@ -27,6 +27,7 @@
         android:orientation="vertical">
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/login_username_text_input_layout"
             style="@style/Widget.EC03.LoginTextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -36,6 +37,7 @@
             app:startIconDrawable="@drawable/ic_baseline_person_24">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/login_username_text_input_edit_text"
                 style="@style/LoginTextInputEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -43,6 +45,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/login_password_text_input_layout"
             style="@style/Widget.EC03.LoginTextInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,6 +55,7 @@
             app:startIconDrawable="@drawable/ic_outline_lock_24">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/login_password_text_input_edit_text"
                 style="@style/LoginTextInputEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -81,7 +85,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/login_button"
+            android:id="@+id/login_login_button"
             style="@style/ContainedButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
